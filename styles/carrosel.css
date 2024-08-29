@@ -1,0 +1,181 @@
+.carrosel_titulo{
+
+    text-align: center;
+    font-size: 1.125rem;
+    color:var(--laranja);
+    font-weight: 700;
+    font-style: normal;
+    background-color: var(--branco);
+    padding: 1em;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--branco);
+    border-radius: 0.625em; /*10px*/
+    padding: 1em;
+    margin: 1em;
+}
+
+.card_botoes{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card_textos{
+
+    display: flex;
+    justify-content: space-between
+}
+
+.card_textos_h3{
+
+    font-family: var(--fonte-principal);
+    color: var(--laranja);
+    margin: 9px;
+    font-weight: 600;;
+    font-size: 16px;
+
+}
+
+.card_textos_h2{
+     
+    font-family: var(--fonte-principal);
+    color: black;
+    margin: 9px;
+    font-weight: 900;
+    font-size: 16px;
+    
+}
+
+.card_textos_p{
+
+    font-family: var(--fonte-principal);
+    color: black;
+    margin: 9px;
+    font-weight: 400;
+    font-size: 16px;
+    
+}
+
+.swiper{
+    
+    width: 100%;
+    /*margin: 0 auto; /* Centraliza o Swiper */
+    position: relative;
+    
+}
+
+.swiper-slide img{
+
+    width: 100%;
+}
+
+.swiper-pagition{
+
+    position: initial;
+    margin: 0.5em;
+}
+
+.card_textos_imagem_estrela{
+    
+    margin: 9px;
+}
+
+.card_botoes_botoes{
+    
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    border-style: none;
+    text-align: center;
+    border-radius: 0px;
+    padding: 10px 35px;
+    font-weight: 600;
+    color: var(--branco);
+    background-color: var(--laranja);
+    text-decoration: none;
+    margin: 0px -10px;
+    
+}
+
+.card_textos_imagem{
+    
+    padding: 10%;
+    margin: 0 20px;
+}
+
+.card_botoes{
+    
+    display: flex;
+    margin: 9px;
+    gap: 20px;
+}
+
+.card_textos_h22{
+    
+    color: var(--laranja);
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 16px;
+    margin: 9px;
+    
+}
+
+.card_textos_p2{
+    
+    color: #002F52;
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 16px;
+    margin: 9px;
+    
+}
+
+.Carrosel_apresentacoes{
+    
+    background-color: var(--cor-fundo);
+    padding: 10px 0;
+    
+}
+
+
+
+@media (min-width: 1200px){
+    
+    .card{
+        
+        margin: 30px 300px;
+    }
+
+      
+    .Carrosel_apresentacoes_espaço{
+        
+        margin: 100px;
+}
+    .cadastro_informacoes{
+
+        display: flex;
+        flex-direction: row;
+        margin: 50px 100px;
+        gap: 100px;
+
+    }
+
+    .Cadastre_mail{
+
+        width: 50%;
+        margin: 0 5% 5%;
+
+    }
+    
+    .Carrosel_apresentacoes{
+        
+        display: flex;
+        justify-content: center;
+        
+    }
+}
