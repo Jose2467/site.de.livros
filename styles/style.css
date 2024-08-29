@@ -15,9 +15,31 @@
 
 body{
 
-    background-color: var(--cor-fundo);
+    background-color: var(--branco);
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
+    background-color: var(--branco);
+}
+
+.roda_pe{ 
+    
+    background: #F9F9F9;
+   /margin: 0 0 0 -20px;
+    padding: 30px 25px;
+    font-size: : 16px;
+    font-weight: 400px
+    font-family: var(--fonte-principal);
+}
+
+
+@media (min-width: 1200px){
+
+    .roda_pe{
+
+        text-align: center;
+
+    }
+
 }
 
