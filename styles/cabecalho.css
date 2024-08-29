@@ -1,11 +1,11 @@
 .cabecalho{ /*contem duas divs */
 
-    background-color: var(--cor-fundo);
+    background-color: var(--branco);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 24px 18px;
+    padding: 10px 18px;
 
 }
 
@@ -14,8 +14,18 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    
+    gap: 24px;
+    margin: 0 0 0 20px;
 
+}
+
+.cabecalho_contener2{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px
+    
 }
 .cabecalho__menu-hamburguer{
 
@@ -31,4 +41,117 @@
 .cabecalho_link{
 
     padding: 8px;
+}
+
+@media (min-width: 1200px){
+    
+    .cabecalho_texto_logo{
+        
+        display: flex;
+        justify-content: flex-start;
+        font-size: 24px;
+        font-weight: 900px;
+        font-family: var(--fonte-principal);
+    }
+    
+    .cabecalho_menu_horizontal{
+        
+        display: flex;
+        justify-content: flex-start;
+        margin: 0 150px  0 0;
+        gap: 25px;
+        font-size: 18px;
+        font-family: var(--fonte-principal);
+        
+    }
+    .cabecalho_texto_logo::before{
+        
+        content: "CodeBooks";
+    }
+    
+    .cabecalho_menu_horizontal_categoria::before{
+        
+        content: "CATEGORIAS";
+        
+    }
+    
+    .cabecalho_menu_horizontal_categoria:hover{
+        
+        background-color: var(--cor-fundo);
+        color: black;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer; 
+    }
+    
+    .cabecalho_menu_horizontal_favoritos::before{
+        
+        content: "FAVORITOS";
+        
+    }
+    
+    .cabecalho_menu_horizontal_favoritos:hover{
+        
+        background-color: var(--cor-fundo);
+        color: black;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer; 
+    }
+    .cabecalho_menu_horizontal_estante::before{
+        
+        content: "MINHA ESTANTE";
+        
+    }
+    
+    .cabecalho_menu_horizontal_estante:hover{
+        
+        background-color: var(--cor-fundo);
+        color: black;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer; 
+    }
+    
+    .cabecalho_link_sacola::before{
+        
+        content: "Minha Sacola";
+    }
+    
+    .cabecalho_link_sacola:hover{
+        
+        background-color: var(--cor-fundo);
+        color: black;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer; 
+    }
+    .cabecalho_link_perfil::before{
+        
+        content: "Meu Perfil";
+    }
+    
+    .cabecalho_link_perfil:hover{
+        
+        background-color: var(--cor-fundo);
+        color: black;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer; 
+    }
+    
+    
+    .cabecalho_contener2_coracao{
+        
+        width: 0%;
+    }
+    
+    .cabecalho_contener2{
+        
+        margin: 0 25px 0 0;
+    }
+    
+    .cabecalho__menu-hamburguer{
+        width: 0%;
+    }
 }
