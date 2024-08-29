@@ -33,39 +33,38 @@ ul{ /*Cria fundo para os botoes*/
     
 }
 
+.topicos_botoes_botoes_div{
 
-
-/*.topicos_visitados{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     
-    font-family: font-family: var(--fonte-principal);
-    font-size: 16px;
+}
 
-}*/
-
-/*.cadastro_informacoes{
+.cadastro_informacoes{ /*Define os espacaentos necessarios para o contener*/
     
     padding: 40px 20px;
     color: #002F52;
     
 }
-*/
-.cadastro_informaçoes_titulo{
+
+.cadastro_informaçoes_titulo{ /*formata o texto do titulo de cadastros*/
     
     font-family: var(--fonte-principal);
     margin: -30px 0 25px 0;
     font-size: 18px;
     font-weight: 500;
 }
-/*
-.cadastro_informaçoes_texto{
+
+.cadastro_informaçoes_texto{ /*formata o texto do texto de cadastros*/
     
     font-family: var(--fonte-principal);
     margin: 0 0 25px ;
     font-size: 16px;
     font-weight: 300;
-}*/
+}
 
-/*.Cadastre_mail{  tag input
+.Cadastre_mail{  /*formata a barra de pesquisa*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -77,7 +76,7 @@ ul{ /*Cria fundo para os botoes*/
     
 }
 
-.Cadastre_mail::placeholder{
+.Cadastre_mail::placeholder{ /*formata o texto da barra de pesquisa*/
 
     font-family: var(--fonte-principal);
     font-size: 14px;
@@ -88,17 +87,3 @@ ul{ /*Cria fundo para os botoes*/
     background-repeat: no-repeat;
     background-position: 1em;
 }
-*/
-
-/*
-.topicos_botoes_botoes{
-
-    display: flex;
-    flex-direction: column;
-
-    justify-content: center;
-    
-}
-*/
-
-
