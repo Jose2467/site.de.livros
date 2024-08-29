@@ -15,79 +15,232 @@
 <body>
     <header class="cabecalho">
 
-            <div class="cabecalho_contener"> <span class="cabecalho__menu-hamburguer"></span>
-                <img src="assets/Logo.svg" alt="Logo da Codebooks">
-                
-            </div>
+        <div class="cabecalho_contener"> 
+            
+            <span class="cabecalho__menu-hamburguer"></span>
+            
+            <img src="assets/Logo.svg" alt="Logo da Codebooks">
+            <div class="cabecalho_texto_logo"></div>
+            
+        </div>
         
-             <div class="cabecalho_contener">
+        <div class="cabecalho_menu_horizontal">
+            <div class="cabecalho_menu_horizontal_categoria"></div>
+            <div class="cabecalho_menu_horizontal_favoritos">
+            </div><div class="cabecalho_menu_horizontal_estante"></div>
+        </div>
+        
+             <div class="cabecalho_contener2">
                  <a href="#" class="cabecalho_link">
-                     <img src="assets/Favoritos.svg" alt="Logo da Codebooks">
+                     <img src="assets/Favoritos.svg" alt="Logo da Codebooks" class="cabecalho_contener2_coracao">
                 </a>
                  <a href="#" class="cabecalho_link">
                      <img src="assets/Frame 98.png" alt="Logo da Codebooks">
                     </a>
+                 <div class="cabecalho_link_sacola"></div>
                     <a href="#" class="cabecalho_link">
-                        <img src="assets/Usuário.svg" alt="Logo da Codebooks">
+                        <img src="assets/Usuario.svg" alt="Logo da Codebooks">
                     </a>
-
-                </div>
+<div class="cabecalho_link_perfil"></div>
+                 
+             </div>
    </header>
    <main> 
        <section class="banner">
-           <h2 class="banner_titulo">Já sabe por onde começar?</h2>
-           <p class="banner_texto">Encontre em nossa estante o que precisa para seu desenvolvimento</p>
-           <input type="search" class="banner_pesquisa" placeholder="Qual sera a sua proxima leitura?">
+           <div class="banner_responsivo">
+               <h2 class="banner_titulo">Já sabe por onde começar?</h2>
+               <p class="banner_texto">Encontre em nossa estante o que precisa para seu desenvolvimento</p>
+               <input type="search" class="banner_pesquisa" placeholder="Qual sera a sua proxima leitura?">
+           </div>
         </section>
         
         <section class="carrosel">
             
             <h2 class="carrosel_titulo">Novos lançamentos</h2>
+            <div class="Carrosel_apresentacoes"> <!--Divisao cor de fundo --> 
+                <!-- Slider main container -->
+                <div class="Carrosel_apresentacoes_espaço"></div>
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img src="assets/livros/ApacheKafka.png" alt="foto_livro"></div>
+                        <div class="swiper-slide"><img src="assets/livros/Guia Front-end.png" alt="foto_livro"></div>
+                        <div class="swiper-slide"><img src="assets/livros/Javascript.png" alt="foto_livro"></div>
+                        <div class="swiper-slide"><img src="assets/livros/Portugol.png" alt="foto_livro"></div>
+                        <div class="swiper-slide"><img src="assets/livros/Tuning.png" alt="foto_livro"></div>
+                        
+                    </div>
+                </div>
+                
+                <div class="card"> <!--cartão inteiro-->
+                    <!--linha 1-->
+                    <div class="card_textos">
+                        
+                        <div>
+                            <h3 class="card_textos_h3">Talvez você também se interesse por...</h3>
+                            <h2 class="card_textos_h2">Angular 11 e Firebase</h2>
+                            <p  class="card_textos_p">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                            
+                        </div>
+
+                        <div>
+                            <img class="card_textos_imagem" src="assets/Mask.svg" alt="Logo">           
+                        </div> 
+                    </div>
+                    <!--linha 2-->
+                    <div class="card_botoes">
+                        <div class="card_botoes">
+                            <img src="assets/Favoritos.svg" alt="Favoritos">
+                            <img src="assets/Frame 98.png" alt="Compras">
+                        </div>
+                        <div>
+                            <a class="card_botoes_botoes" href="#">Saiba mais</a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div> <!--Divisao cor de fundo -->  
             
-            <!-- Slider main container -->
-            <div class="swiper">
-            <!-- Additional required wrapper -->
-            <div class="swiper-pagination"></div>
-            <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide"><img src="assets/livros/ApacheKafka.png" alt="foto_livro"></div>
-                <div class="swiper-slide"><img src="assets/livros/Guia Front-end.png" alt="foto_livro"></div>
-                <div class="swiper-slide"><img src="assets/livros/Javascript.png" alt="foto_livro"></div>
-                <div class="swiper-slide"><img src="assets/livros/Portugol.png" alt="foto_livro"></div>
-                <div class="swiper-slide"><img src="assets/livros/Tuning.png" alt="foto_livro"></div>
-            </div>
-            <!-- If we need pagination -->
+            <h2 class="carrosel_titulo">Mais Vendidos</h2>
             
-            <!-- If we need navigation buttons 
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div> -->
-            <!-- If we need scrollbar 
-            <div class="swiper-scrollbar"></div>-->
-
-
+            <div class="Carrosel_apresentacoes">
+                <!-- topicos visitados -->  
+                <div class="Carrosel_apresentacoes_espaço"></div>
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+       
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img src="assets/livros/ApacheKafka.png" alt="foto_livro"></div>
+                        <div class="swiper-slide"><img src="assets/livros/Guia Front-end.png" alt="foto_livro"></div>
+                        <div class="swiper-slide"><img src="assets/livros/Javascript.png" alt="foto_livro"></div>
+                        <div class="swiper-slide"><img src="assets/livros/Portugol.png" alt="foto_livro"></div>
+                        <div class="swiper-slide"><img src="assets/livros/Tuning.png" alt="foto_livro"></div>
+                        
+                    </div>
+                </div>
+                <div class="card"> <!--cartão inteiro-->
+                    <!--linha 1-->
+                    <div class="card_textos">
+                        <div>
+                            <img class="card_textos_imagem_estrela" src="assets/Estrelinhas.svg" alt="5 estrelas">
+                            <h2 class="card_textos_h22">Autora do Mes</h2>
+                            <p  class="card_textos_p2">Juliana Agarikov</p>
+                            <p  class="card_textos_p">Analista de sistemas e escritora, Juliana é especialista em Front-End. </p>
+                            
+                        </div>
+                        <div>
+                            <img class="card_textos_imagem" src="assets/Perfil-escritora 1.svg" alt="Logo">
+                            
+                        </div>
+                    </div> 
+                    <!--linha 2-->
+                    <div class="card_botoes">
+                        <div class="card_botoes">
+                            <img src="assets/Favoritos.svg" alt="Favoritos">
+                            <img src="assets/Frame 98.png" alt="Compras">
+                        </div>
+                        <div>
+                            <a class="card_botoes_botoes" href="#">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-
         </section>
-
+       
+       <div class="topicos">
+           
+           <h2 class="topicos_texto">TÓPICOS VISITADOS RECENTEMENTE</h2>
+           <div class="topicos_botoes_botoes">
+               
+               <div class="topicos_botoes_botoes_div">
+                   <ul>
+                       <li><a href="Android" class="topicos_botoes">Android</a></li>
+                   </ul>
+                   
+                   <ul>
+                       <li><a href="Marketing Digital" class="topicos_botoes">Marketing Digital</a></li>
+                       
+                   </ul>
+                   
+                   <ul>
+                       
+                       <li><a href="Agile" class="topicos_botoes">Agile</a></li>
+                       
+                   </ul>
+                   
+               </div>
+                    
+               <div class="topicos_botoes_botoes_div">
+                        
+                   <ul>
+                       <li><a href="Startups" class="topicos_botoes">Startups</a></li>
+                   </ul>
+                        
+                   <ul>
+                       <li><a href="Marketing Digital" class="topicos_botoes">HTML & CSS</a></li>
+                   </ul>
+                   
+                   <ul>
+                       <li><a href="Marketing Digital" class="topicos_botoes">Python</a></li>
+                   </ul>
+               </div>
+               
+               <div class="topicos_botoes_botoes_div">
+                            
+                   <ul>
+      
+                       <li><a href="POO" class="topicos_botoes">POO</a></li>
+                   </ul>
+                   
+                   <ul>
+                       <li><a href="Marketing Digital" class="topicos_botoes">Java</a></li>
+    
+                   </ul>
+               </div>
+           </div>
+       </div>
+       
+       <div class="cadastro_informacoes ">
+           
+           <div class="cadastro_informaçoes_textos">
+               
+               <h2 class="cadastro_informaçoes_titulo">Fique por dentro das novidades!</h2>
+               
+               <p class="cadastro_informaçoes_texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+               
+           </div>
+           <input type="search" class="Cadastre_mail" placeholder="Cadastre seu e-mail">
+       </div>
+       <!--  </div>
+-->
+        
+    <h2 class="roda_pe">Grupo  Codei</h2>
 
    </main>
 
-   <script>
-       const swiper = new Swiper('.swiper', {
-  // Optional parameters
-  //direction: 'vertical',
-  //loop: true,
-  spaceBetween: 10,
-  slidesPerVieew: 3,
+<script>
 
-  // If we need pagination
-  pagination: {
-    el: '.swiper-pagination',
-    type: 'bullets',
-  },
+const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            speed: 400,
+            spaceBetween: 10,
+            slidesPerView: 3,
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+            autoplay: {
+            delay: 3000, // Define o tempo do autoplay (3 segundos)
+            disableOnInteraction: false,
+            },
+            });
+</script>
 
-});
-   </script>
    <footer> </footer>
 </body>
 </html>
